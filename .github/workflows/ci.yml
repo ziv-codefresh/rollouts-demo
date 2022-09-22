@@ -30,6 +30,9 @@ jobs:
     
       - name: report image
         with:
+        
+          CF_HOST_URL: https://onprem-integration-testing-10.dev.codefresh.io
+        
           # Runtime to use for the enrichment.
           CF_RUNTIME_NAME: 'no-redis-runtime'
 
