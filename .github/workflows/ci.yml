@@ -80,7 +80,7 @@ jobs:
           title: 'Update application version'
           body: |
             Update deployment version
-            - Updated new version for hello-world application
+            - Updated new version for rollout-demo application
           labels: |
             automated pr
           draft: false
