@@ -31,8 +31,8 @@ jobs:
       - name: report image
         with:
         
-          CF_HOST: https://59009117c102763beda7ce71-no-redis-runtime.tunnels10.dev.codefresh.io
-        
+          # CF_HOST: https://59009117c102763beda7ce71-no-redis-runtime.tunnels10.dev.codefresh.io
+          CF_HOST: http://ziv.tunnel.pipeline-team.cf-cd.com
 
           # API key for authentication to Codefresh. !! Committing a plain text token is a security risk. We highly recommend using encrypted secrets. !!
           # Documentation - https://docs.github.com/en/actions/security-guides/encrypted-secrets
